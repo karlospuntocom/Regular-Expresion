@@ -1,5 +1,5 @@
-var exNombre = /[0-9]/g;
-var exTel = /[A-z]/g;
+var exNombre = /[0-9]/i;
+var exTel = /[A-z]/i;
 var exCorreo = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 var exPlaca = /^[A-Z]{3}\s\u002D\s[0-9]{3}$/i;
 
