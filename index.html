@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+	<link rel="shortcut icon" type="images/png" href="images/favicon.png"/>
 	<script src="js/regularexp.js"></script>
 	<style>
 		@import url('https://fonts.googleapis.com/css?family=Montserrat');
@@ -20,11 +20,11 @@
 		</h1>
 		
 		<form>
-			Nombre: <input type="text" name="name" required="required"/> <br/>
-			Teléfono: <input type="text" name="phone" required="required"/> <br/>
-			Email: <input type="text" name="email" required="required"/> <br/>
-			Placa: <input type="text" name="ref" required="required"/> <br/>
-			<input type="submit" value="Evaluar" onclick="evaluar()" />
+			<label>Nombre: </label><input type="text" id="name"/> <img id="checkname" src="images/check.png"> <br/>
+			<label>Teléfono: </label><input type="text" id="phone"/> <img id="checkphone" src="images/check.png"> <br/>
+			<label>Email: </label><input type="text" id="email"/> <img id="checkemail" src="images/check.png"> <br/>
+			<label>Placa: </label><input type="text" id="ref"/> <img id="checkref" src="images/check.png"> <br/>
+			<input type="submit" value="Evaluar" onclick="return evaluar();" />
 		</form>
 		<img class="img-back" src="images/logo.png">
 	</div>		
