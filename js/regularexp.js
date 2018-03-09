@@ -32,7 +32,7 @@ function evaluar_telefono(tel){
 function evaluar_mail(mail){
 	if (!exCorreo.exec(mail)) {
 		document.getElementById('checkemail').style.visibility = "hidden";
-		alert("El formato del correo es incorrecto!");
+		alert("El formato del correo es incorrecto, deberìa ser ejemplo@midominio.abc!");
 	} else{
 		document.getElementById('checkemail').style.visibility = "visible";
 	}
@@ -41,7 +41,7 @@ function evaluar_mail(mail){
 function evaluar_placa(ref){
 	if (!exPlaca.exec(ref)) {
 		document.getElementById('checkref').style.visibility = "hidden";
-		alert("La placa tiene un formato incorrecto!");
+		alert("La placa tiene un formato incorrecto, deberìa ser ABC - 123!");
 	} else{
 		document.getElementById('checkref').style.visibility = "visible";
 	}
